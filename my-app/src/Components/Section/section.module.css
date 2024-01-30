@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 150, 128);
+}
+
+.pagecontainer{
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.pagecontainer h1{
+    font-size: 75px;
+}
+
+.pagecontainer h3{
+    font-size: 30px;
+}
+
+.pagecontainer button{
+    padding: 7px;
+    background-color: red;
+    color: white;
+    border: none;
+}
